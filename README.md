@@ -37,3 +37,33 @@ This project applies machine learning operations to predict whether a Pokémon h
 ## Results
 
 The deployed gradient boosting model successfully detected drift when test data was intentionally modified (swapping and randomizing features), with accuracy dropping from 88% to 74%, which confirms the effectiveness of our monitoring approach.
+
+## Team Contributions
+
+This project was a collaborative effort with clearly defined responsibilities:
+
+### Bradley Stoller
+- AWS SageMaker model deployment
+- Evidently AI model monitoring implementation
+- S3 integration for record archiving
+- Model inference endpoint setup
+
+### Samuel Martinez Koss
+- SMOTE implementation for class balancing
+- Data preprocessing and feature engineering
+- Train/test splitting strategy
+- MLflow experimentation and hyperparameter tuning (10 model configurations via random search)
+
+### Zhiwei Guo
+- Exploratory Data Analysis (EDA)
+- Statistical analysis (ANOVA, Tukey's HSD, effect size calculations)
+- Data visualization and insights generation
+- Presentation development
+
+### Xigang Zhang
+- Dataset research and sourcing
+- Exploratory Data Analysis (EDA)
+- Feature analysis and documentation
+- Presentation development
+
+
